@@ -24,7 +24,7 @@ export default class Life extends React.Component {
     ReactDOM.unmountComponentAtNode(document.getElementById("app"))
   }
 
-// 定义了，没调用，最终执行了
+// callback: 定义了，没调用，最终执行了
   componentDidMount () {
     // 启动循环定时器
     this.intervalId = setInterval(() => {

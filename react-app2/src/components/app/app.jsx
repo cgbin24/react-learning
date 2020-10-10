@@ -24,6 +24,23 @@ export default class App extends Component {
     ]
   }
 
+  // 状态在哪里，操作就在那里
+  // 添加评论
+  addComment = (comment) => {
+    const {comments} = this.state
+    comments.unshift(comment)
+    // 更新状态
+    this.setState({comments})
+  }
+
+  // 删除指定评论
+  deleteComment = (index) => {
+    const {comments} = this.state
+    comments.splice(index,1)
+    // update state
+    this.setState({comments})
+  }
+
   render () {
     const {comments} = this.state
     return (
@@ -38,8 +55,8 @@ export default class App extends Component {
           </div>
         </header>
         <div className="container">
-          <CommentAdd />
-          <CommentList comments={comments}/>
+          <CommentAdd addComment={this.addComment} />
+          <CommentList comments={comments} deleteComment={this.deleteComment}/>
           {/* {alert(JSON.stringify(comments))} */}
         </div>
       </div>

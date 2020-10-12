@@ -28,6 +28,11 @@ export default class App extends Component {
   // 添加评论
   addComment = (comment) => {
     const {comments} = this.state
+    // alert(JSON.stringify(comment))
+    // debugger
+    // alert(123)
+    if (comment.username === null || comment.content === null) {
+    }
     comments.unshift(comment)
     // 更新状态
     this.setState({comments})

@@ -19,6 +19,11 @@ export default class CommentAdd extends Component {
 
     // 收集数据，并封装成comment对象
     const comment = this.state
+    // 判断
+    if (comment.username === '' || comment.content === '') {
+      alert('评论内容为空或填写不完整')
+      return
+    }
     // 更新状态
     this.props.addComment(comment)
     // 清除输入数据

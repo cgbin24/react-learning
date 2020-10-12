@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom'
 // import BindEvent from '@/components/BindEvent'
 // import {App} from '@/components/TodoList'
 // import LoginForm from '@/components/LoginForm'
-import Lifecycle from '@/components/Lifecycle'
+// import Lifecycle from '@/components/Lifecycle'
+import MostStarRes from '@/components/AjaxDemo'
 
 
 
@@ -16,7 +17,8 @@ ReactDOM.render(<div>
 {/* <BindEvent></BindEvent> */}
 {/* <App></App> */}
 {/* <LoginForm></LoginForm> */}
-<Lifecycle msg="react太难了！"></Lifecycle>
+{/* <Lifecycle msg="react太难了！"></Lifecycle> */}
+<MostStarRes></MostStarRes>
 </div>, document.getElementById('app'))
 
 

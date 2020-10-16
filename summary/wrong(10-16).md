@@ -18,3 +18,7 @@ ReactDom.render(<App />, document.getElementById('root'))
 ReactDom.render(<App store={store} />, document.getElementById('root'))
 ```
 
+
+
+*Grow your way forward, through the triumphs and the setbacks.*
+*在胜利与挫折的交错中不断成长。*

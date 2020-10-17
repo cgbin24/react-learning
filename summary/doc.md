@@ -13,3 +13,7 @@
 ###### 前端开源项目免费 CDN 服务
 
 > https://www.bootcdn.cn/
+
+###### 库壳
+
+> https://coolshell.cn/

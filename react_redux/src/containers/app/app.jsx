@@ -16,7 +16,7 @@ class App extends Component {
     deleteComment: PropTypes.func.isRequired,
   }
 
-  componentDidMount () {\
+  componentDidMount () {
     const {deleteComment} = this.props
     // 订阅消息（deleteComment）
     PubSub.subscribe('deleteComment', (msg, index) => {

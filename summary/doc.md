@@ -17,3 +17,7 @@
 ###### 库壳
 
 > https://coolshell.cn/
+
+###### Hutool是一个小而全的Java工具类库
+
+> https://www.hutool.cn/docs/#/

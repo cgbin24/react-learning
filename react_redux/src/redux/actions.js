@@ -10,7 +10,7 @@ export const addComment = (comment) => ({type: ADD_COMMENT, data: comment})
 export const deleteComment = (index) => ({type: DELETE_COMMENT, data: index})
 
 // 同步接收comments
-
+export const 
 
 // 异步从后台获取数据
 export const getComments = () => {
